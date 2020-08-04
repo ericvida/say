@@ -1,4 +1,4 @@
 function say(message) {
-    console.log(message)
+    console.log(message);
 }
-module.exports.say = say
+module.exports.say = say;
