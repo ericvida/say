@@ -1,6 +1,4 @@
-function say() {
-    console.log("Saying something")
+function say(message) {
+    console.log(message)
 }
-say()
-
-module.exports.say = say;
+module.exports.say = say
