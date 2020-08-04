@@ -1,0 +1,23 @@
+{
+  "name": "ericvidasay",
+  "version": "1.0.0",
+  "description": "simple console log function for testing npm package publishing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericvida/say.git"
+  },
+  "keywords": [
+    "logger",
+    "js"
+  ],
+  "author": "ericvida",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ericvida/say/issues"
+  },
+  "homepage": "https://github.com/ericvida/say#readme"
+}

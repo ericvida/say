@@ -1,4 +1,3 @@
-function say(message) {
+export function say(message) {
     console.log(message);
 }
-module.exports.say = say;
