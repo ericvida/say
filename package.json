@@ -1,6 +1,6 @@
 {
   "name": "ericvidasay3",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "simple console log function for testing npm package publishing",
   "main": "index.js",
   "scripts": {
@@ -38,6 +38,7 @@
   },
   "homepage": "https://github.com/ericvida/say#readme",
   "dependencies": {
-    "@pika/pack": "^0.5.0"
+    "@pika/pack": "^0.5.0",
+    "yarn": "^1.22.4"
   }
 }
