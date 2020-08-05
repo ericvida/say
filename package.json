@@ -1,10 +1,27 @@
 {
-  "name": "ericvidasay",
+  "name": "ericvidasay3",
   "version": "1.0.0",
   "description": "simple console log function for testing npm package publishing",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "version": "npx @pika/pack"
+  },
+  "@pika/pack": {
+    "pipeline": [
+      [
+        "@pika/plugin-standard-pkg"
+      ],
+      [
+        "@pika/plugin-build-node"
+      ],
+      [
+        "@pika/plugin-build-web"
+      ],
+      [
+        "@pika/plugin-build-types"
+      ]
+    ]
   },
   "repository": {
     "type": "git",
@@ -19,5 +36,8 @@
   "bugs": {
     "url": "https://github.com/ericvida/say/issues"
   },
-  "homepage": "https://github.com/ericvida/say#readme"
+  "homepage": "https://github.com/ericvida/say#readme",
+  "dependencies": {
+    "@pika/pack": "^0.5.0"
+  }
 }
